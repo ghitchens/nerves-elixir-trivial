@@ -2,14 +2,14 @@ Nerves / Elixir
 ===============
 
 This __trivial__ example demonstrates building an Elixir-based application 
-using Nerves, and deploying firmware to the BeagleBoneBlack.  All it does is make the BeagleBone LED bar flash back and forth in a pattern.
+using Nerves, and deploying firmware to the [BeagleBone Black](http://beagleboard.org/Products/BeagleBone+Black).  All it does is make the LED bar flash back and forth in a pattern.
 
 This example demonstrates:
 
 - building host [Elixir](http://elixir-lang.org) in the Nerves SDK
 - releasing an Elixir app via relx
 - turning released Elixir app into [Nerves](http://nerves-project.org) image
-- burning an sdcard that boots to an Elixir App on the Beaglebone Black
+- burning an sdcard that boots to an Elixir App on the BeagleBone Black
 
 ### Some prerequisites
 
