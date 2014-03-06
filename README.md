@@ -15,7 +15,7 @@ This example demonstrates:
 
 I assume you already know how to build [Nerves](http://nerves-project.org) from source, and deploy the [Nerves Sample App](https://github.com/nerves-project/nerves-demo) on the BeagleBone Black, 
 
-There are __lots__ of trick in terms of getting the stock nerves build to work, so please do that first, and make sure the built sample builds and boots.
+There are __lots__ of tricks in terms of getting the stock nerves build to work, so please do that first, and make sure the built sample builds and boots.
 
 ### Building Nerves with Elixir support
 
