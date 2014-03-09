@@ -1,7 +1,7 @@
 Nerves / Elixir
 ===============
 
-This __trivial__ example demonstrates building an Elixir-based application 
+This __trivial__ example demonstrates building an Elixir-based application
 using Nerves, and deploying firmware to the [BeagleBone Black](http://beagleboard.org/Products/BeagleBone+Black).  All it does is make the LED bar flash back and forth in a pattern.
 
 This example demonstrates:
@@ -19,7 +19,7 @@ There are __lots__ of tricks in terms of getting the stock nerves build to work,
 
 ### Building Nerves with Elixir support
 
-- Get a branch of nerves with Elixir support (for now, use [my fork](https://github.com/ghitchens/nerves-sdk))
+- Make sure that you have a current version of nerves
 - Run "make menuconfig" and enable Elxir support
 - Build Buildroot and the Nerves SDK ("make")
 - Build/install Frank's [mmccopy](https://github.com/fhunleth/mmccopy) utility (used by sample makefile)
@@ -27,14 +27,14 @@ There are __lots__ of tricks in terms of getting the stock nerves build to work,
 ### Building the trivial Elixir sample
 
       source <nerves-sdk>/nerves-env.sh   # bring in nerves enviornment
-            
+
       make              # compiles and builds _release
       make firmware     # builds firmware from release
       make sdcard       # attempts to burn sdcard using mmccopy      
-      
+
 ## Known Issues
 
-This example was hacked together __very__ quickly, it will hopefully improve. 
+This example was hacked together __very__ quickly, it will hopefully improve.
 Since I'm quite new to Buildroot and Nerves, feel free to offer suggestions or pull requests!   Yes, I know...
 
 - my makefile is pathological
