@@ -39,4 +39,3 @@ Since I'm quite new to Buildroot and Nerves, feel free to offer suggestions or p
 
 - my makefile is pathological
 - this doesn't demo any dependencies (though they work)
-- the interpreter that boots in the console Eshell, not IEx
