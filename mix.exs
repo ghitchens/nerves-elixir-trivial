@@ -5,7 +5,7 @@ defmodule NervesElixirTrivial.Mixfile do
   def project do
     [ app: :nerves_elixir_trivial,
       version: "0.0.1",
-      elixir: "~> 0.12.4",
+      elixir: "~> 1.0.0-rc1",
       deps: deps ]
   end
 

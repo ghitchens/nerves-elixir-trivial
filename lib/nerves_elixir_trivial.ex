@@ -1,6 +1,6 @@
 defmodule NervesElixirTrivial do
   
-  use Application.Behaviour
+  use Application
 
   def start(_type, _args) do
     :io.format "Elixir is started - watch the lights blink!\n"
